@@ -1,0 +1,77 @@
+body{
+    padding-bottom: 700px;
+}
+.logo,
+.section-1 h2{
+    font-family: 'Allura', cursive;
+}
+.section-1{
+    background-image: url('../img/bg-image-1.jpg');
+    background-size: cover;
+    
+}
+
+.top-info{
+    color: beige;
+    width: 100%;
+    clear: both;
+    background: rgba(0, 0, 0, 0.2);
+    min-height: 40px;
+    line-height: 40px;
+    height: 30px;
+}
+.navbar-bg{
+    background: rgba(0, 0, 0, 0.2);
+}
+.logo{
+    font-size: 30px;
+    color: #deb150 !important;
+}
+.top-info a{
+    color: beige;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px;
+}
+i.fa{
+    font-size: 13px;
+    color: #deb150;
+    line-height: 2.231;
+    text-align: left;
+    margin-right: 6px;
+}
+
+/* ====== banner ===== */
+.section-1 h2{
+    font-size: 60px;
+    color: #ddb150;
+    text-align: center;
+}
+h1{
+    color: beige;
+    font-size: 130px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.section-1 p{
+    text-align: center;
+    font-size: 20px;
+    color: beige;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ddb150;
+}
+
+
+/* ===== fire ========*/
+/* ===== mediaqueries ===== */
+@media (max-width: 768px){
+    .section-1 h2{
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 46px;
+    }
+}
