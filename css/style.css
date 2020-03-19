@@ -21,7 +21,7 @@ body{
     height: 30px;
 }
 .navbar-bg{
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.7);
 }
 .logo{
     font-size: 30px;
@@ -42,13 +42,16 @@ i.fa{
 }
 
 /* ====== banner ===== */
+.banner1{
+    padding: 100px 0;
+}
 .section-1 h2{
     font-size: 60px;
     color: #ddb150;
     text-align: center;
 }
 h1{
-    color: beige;
+    color: rgb(204, 204, 109);
     font-size: 130px;
     text-transform: uppercase;
     font-weight: 700;
@@ -64,7 +67,29 @@ h1{
     border-bottom: 1px solid #ddb150;
 }
 
+/* ===== section-2 ====*/
+.section-2{
+    background-image: url('../img/bg-image-2.jpg');
+    background-size: cover;
+    padding: 100px 0;
+}
+.section-2 h3{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.section-2 span{
+    display: inline-block;
+    color: #ddb150;
+    text-align: center;
+}
+.section-2 p{
+    font-size: 20px;
+    text-transform: capitalize;
 
+}
 /* ===== fire ========*/
 .fire{
     position: absolute;
