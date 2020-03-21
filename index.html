@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
     integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/index.js"></script>
   <title>Restaurant</title>
 </head>
 
@@ -22,7 +23,7 @@
     <section class="top-info">
       <div class="container">
         <div class="row">
-          <div class="col-4">
+          <div class="col-4 col-xs-12">
             <p>
               <i class="fa fa-clock"></i>
               Date/Time: <span id="datetime"></span>
@@ -31,7 +32,7 @@
           <div class="col-4">
 
           </div>
-          <div class="col-4">
+          <div class="col-4 col-xs-12">
             <a href="tel">
               <i class="fa fa-phone"></i>
               <span>+3805005050</span>
@@ -130,7 +131,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-8">
-            <img class="animated rotateInUpLeft delay-2s" src="img/about-1.png" alt="">
+            <img class="animated fadeInDown delay-2s" src="img/about-1.png" alt="">
             <h2>
               Our Story
             </h2>
@@ -151,10 +152,10 @@
                 <img class="mx-auto mt-5 d-block" src="img/bottom-img.png" alt="">
               </div>
             </div>
-            </div>
           </div>
           <div class="col-4">
-
+            <img class="img-fluid" src="img/chef.png" alt="">
+          </div>
           </div>
         </div>
       </div>
@@ -173,7 +174,7 @@
   <footer>
 
   </footer>
-  <script src="js/index.js"></script>
+  
   <script>
     var dt = new Date();
     document.getElementById("datetime").innerHTML = (("0" + dt.getDate()).slice(-2)) + "." + (("0" + (dt

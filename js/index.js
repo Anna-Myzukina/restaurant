@@ -1,15 +1,9 @@
-const person = new Object(
-    {
-        name: 'Max',
-        age: 25,
-        greed: function(){
-            console.log('Greet!!!')
-        }
-    }
-)
-
-Object.prototype.sayHello = function(){
-    console.log('Hello!')
+function hello(){
+    console.log('Hello', this)
 }
 
-const lena = Object.create(person)
+const person = {
+    name: 'Max',
+    age: 37,
+    sayHello: hello
+}
