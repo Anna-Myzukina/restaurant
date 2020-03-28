@@ -73,9 +73,7 @@ h1{
     background-size: cover;
     padding: 100px 0;
 }
-.section-2 .img-fadeIn{
-    
-}
+
 .section-2 h3{
     font-size: 50px;
     text-align: center;
@@ -92,6 +90,12 @@ h1{
     font-size: 20px;
     text-transform: capitalize;
 
+}
+
+.feature{
+    border: 1px solid red;
+    width: 50px;
+    height: 200px;
 }
 /* ===== fire ========*/
 .fire{
